@@ -121,6 +121,7 @@
     }
   },
   "name": "NEW_PRJ",
+  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -176,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607333417276
+    "lastModifiedOn": 1607340809719
   },
   "creationTag": {
     "versionNumber": 0,
