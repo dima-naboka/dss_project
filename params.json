@@ -169,11 +169,20 @@
 <<<<<<< HEAD
 =======
   "versionTag": {
+<<<<<<< HEAD
     "lastModifiedBy": {
       "login": "admin"
     },
   ,
 >>>>>>> Setup git remote repository
+=======
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607341073437
+  },
+>>>>>>> Updated invariant properties of project NEW_PRJ after git switch operation.
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
