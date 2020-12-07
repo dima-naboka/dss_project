@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #os.environ['https_proxy'] = "https://localhost"
+#os.environ['http_proxy'] = "http://url" 
 
 import dataiku
 import pandas as pd, numpy as np
