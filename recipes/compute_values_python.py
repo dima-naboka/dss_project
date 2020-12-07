@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#os.environ['https_proxy'] = "https://localhost"
+
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
