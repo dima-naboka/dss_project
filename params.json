@@ -7,8 +7,25 @@
     "objects": []
   },
   "projectType": "REGULAR",
+  "projectAppType": "REGULAR",
   "owner": "admin",
-  "permissions": [],
+  "permissions": [
+    {
+      "group": "administrators",
+      "admin": true,
+      "readProjectContent": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    }
+  ],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -52,12 +69,17 @@
     },
     "codeEnvs": {
       "python": {
+        "mode": "INHERIT",
         "preventOverride": false
       },
       "r": {
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "julia": {
+        "mode": "INHERIT",
         "preventOverride": false
       }
-      
     },
     "container": {
       "containerMode": "NONE"
@@ -106,8 +128,12 @@
           "initialReplicas": 1,
           "hpa": false,
           "hpaTargetCPUPercent": 0,
-          "hpaMinPods": 0
-        }
+          "hpaMetrics": [],
+          "hpaMinPods": 0,
+          "hpaMaxPods": 0,
+          "hpaAnnotations": []
+        },
+        "deploymentModifier": {}
       }
     }
   },
@@ -167,11 +193,11 @@
     }
   },
   "versionTag": {
-   "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607341073437
+    "lastModifiedOn": 1607347053752
   },
   "creationTag": {
     "versionNumber": 0,
@@ -181,7 +207,7 @@
     "lastModifiedOn": 1607331812874
   },
   "shortDesc": "The project *NEW_PRJ* was created by Administrator on Dec 07th 2020",
-  
+  "tags": [],
   "customFields": {},
   "checklists": {
     "checklists": [
