@@ -52,13 +52,12 @@
     },
     "codeEnvs": {
       "python": {
-        "useBuiltinEnv": true,
         "preventOverride": false
       },
       "r": {
-        "useBuiltinEnv": true,
         "preventOverride": false
       }
+      
     },
     "container": {
       "containerMode": "NONE"
@@ -107,14 +106,12 @@
           "initialReplicas": 1,
           "hpa": false,
           "hpaTargetCPUPercent": 0,
-          "hpaMinPods": 0,
-          "hpaMaxPods": 0
+          "hpaMinPods": 0
         }
       }
     }
   },
   "name": "NEW_PRJ",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -169,13 +166,6 @@
       "checks": []
     }
   },
-  "versionTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1607336244148
-  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -184,7 +174,7 @@
     "lastModifiedOn": 1607331812874
   },
   "shortDesc": "The project *NEW_PRJ* was created by Administrator on Dec 07th 2020",
-  "tags": [],
+  
   "customFields": {},
   "checklists": {
     "checklists": [
