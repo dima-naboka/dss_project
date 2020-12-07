@@ -7,6 +7,7 @@
     "objects": []
   },
   "projectType": "REGULAR",
+  "projectAppType": "REGULAR",
   "owner": "admin",
   "permissions": [],
   "additionalDashboardUsers": {
@@ -51,11 +52,15 @@
     },
     "codeEnvs": {
       "python": {
-        "useBuiltinEnv": true,
+        "mode": "INHERIT",
         "preventOverride": false
       },
       "r": {
-        "useBuiltinEnv": true,
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "julia": {
+        "mode": "INHERIT",
         "preventOverride": false
       }
     },
@@ -106,14 +111,16 @@
           "initialReplicas": 1,
           "hpa": false,
           "hpaTargetCPUPercent": 0,
+          "hpaMetrics": [],
           "hpaMinPods": 0,
-          "hpaMaxPods": 0
-        }
+          "hpaMaxPods": 0,
+          "hpaAnnotations": []
+        },
+        "deploymentModifier": {}
       }
     }
   },
   "name": "NEW_PRJ",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -168,6 +175,13 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607333417276
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -176,7 +190,9 @@
     "lastModifiedOn": 1607331812874
   },
   "shortDesc": "The project *NEW_PRJ* was created by Administrator on Dec 07th 2020",
-  "tags": [],
+  "tags": [
+    "imported"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
