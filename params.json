@@ -166,6 +166,14 @@
       "checks": []
     }
   },
+<<<<<<< HEAD
+=======
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+  ,
+>>>>>>> Setup git remote repository
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
