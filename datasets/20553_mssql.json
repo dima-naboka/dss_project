@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610973168914
+    "lastModifiedOn": 1610973182455
   },
   "creationTag": {
     "versionNumber": 0,
@@ -63,7 +63,7 @@
         "originalType": "int4"
       },
       {
-        "name": "Name_15_x_Price_",
+        "name": "Name_15_x(Price)",
         "type": "double",
         "originalType": "numeric"
       }
