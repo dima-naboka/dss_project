@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610973182455
+    "lastModifiedOn": 1610973248757
   },
   "creationTag": {
     "versionNumber": 0,
@@ -49,6 +49,7 @@
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "table": "20553_mssql",
+    "schema": "dku",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
