@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610973192709
+    "lastModifiedOn": 1610973282727
   },
   "creationTag": {
     "versionNumber": 0,
@@ -61,13 +61,11 @@
     "columns": [
       {
         "name": "id",
-        "type": "int",
-        "originalType": "int4"
+        "type": "int"
       },
       {
-        "name": "Name_15_x(Price)",
-        "type": "double",
-        "originalType": "numeric"
+        "name": "Name_15_x_Price_",
+        "type": "double"
       }
     ],
     "userModified": true
