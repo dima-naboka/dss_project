@@ -193,11 +193,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607347053752
+    "lastModifiedOn": 1612192501419
   },
   "creationTag": {
     "versionNumber": 0,
@@ -207,7 +207,9 @@
     "lastModifiedOn": 1607331812874
   },
   "shortDesc": "The project *NEW_PRJ* was created by Administrator on Dec 07th 2020",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
