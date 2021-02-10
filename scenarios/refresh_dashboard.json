@@ -5,11 +5,11 @@
   "name": "refresh_dashboard",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612945890841
+    "lastModifiedOn": 1612945906880
   },
   "checklists": {
     "checklists": []
@@ -23,7 +23,32 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "refresh_chart_cache_Z4nktP6",
+        "type": "refresh_chart_cache",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "force": false,
+          "dashboards": [
+            {
+              "smartName": "Z4nktP6",
+              "name": "NEW_PRJ\u0027s default dashboard"
+            }
+          ],
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
