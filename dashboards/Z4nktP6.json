@@ -30,6 +30,7 @@
           }
         ]
       },
+      "title": "gf",
       "showTitle": false
     }
   ],
@@ -38,11 +39,11 @@
   "name": "NEW_PRJ\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612945851175
+    "lastModifiedOn": 1612945881801
   },
   "creationTag": {
     "versionNumber": 0,
