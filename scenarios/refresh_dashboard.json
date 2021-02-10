@@ -5,11 +5,11 @@
   "name": "refresh_dashboard",
   "active": false,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612946244796
+    "lastModifiedOn": 1612946434217
   },
   "checklists": {
     "checklists": []
@@ -28,7 +28,7 @@
         "id": "refresh_chart_cache_Z4nktP6",
         "type": "refresh_chart_cache",
         "name": "Step #1",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionType": "RUN_ALWAYS",
         "runConditionStatuses": [
           "SUCCESS",
           "WARNING"
