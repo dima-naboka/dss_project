@@ -23,7 +23,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "ojnyy8R",
+            "insightId": "656WGN6",
             "insightType": "dataset_table",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
@@ -39,11 +39,11 @@
   "name": "NEW_PRJ\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612946177658
+    "lastModifiedOn": 1612946187557
   },
   "creationTag": {
     "versionNumber": 0,
