@@ -1,0 +1,30 @@
+{
+  "projectKey": "NEW_PRJ",
+  "id": "refresh_dashboard",
+  "type": "step_based",
+  "name": "refresh_dashboard",
+  "active": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1612945890841
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": []
+  },
+  "automationLocal": false,
+  "customFields": {}
+}
