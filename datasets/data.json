@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613058598663
+    "lastModifiedOn": 1613058604829
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,136 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "col_0",
+        "type": "string"
+      },
+      {
+        "name": "col_1",
+        "type": "string"
+      },
+      {
+        "name": "col_2",
+        "type": "string"
+      },
+      {
+        "name": "col_3",
+        "type": "bigint"
+      },
+      {
+        "name": "col_4",
+        "type": "string"
+      },
+      {
+        "name": "col_5",
+        "type": "date"
+      },
+      {
+        "name": "col_6",
+        "type": "bigint"
+      },
+      {
+        "name": "col_7",
+        "type": "bigint"
+      },
+      {
+        "name": "col_8",
+        "type": "bigint"
+      },
+      {
+        "name": "col_9",
+        "type": "double"
+      },
+      {
+        "name": "col_10",
+        "type": "double"
+      },
+      {
+        "name": "col_11",
+        "type": "bigint"
+      },
+      {
+        "name": "col_12",
+        "type": "string"
+      },
+      {
+        "name": "proba_United Kingdom",
+        "type": "double"
+      },
+      {
+        "name": "proba_Netherlands",
+        "type": "double"
+      },
+      {
+        "name": "proba_France",
+        "type": "double"
+      },
+      {
+        "name": "proba_EIRE",
+        "type": "double"
+      },
+      {
+        "name": "proba_Cyprus",
+        "type": "double"
+      },
+      {
+        "name": "proba_Germany",
+        "type": "double"
+      },
+      {
+        "name": "proba_Poland",
+        "type": "double"
+      },
+      {
+        "name": "proba_Australia",
+        "type": "double"
+      },
+      {
+        "name": "proba_Norway",
+        "type": "double"
+      },
+      {
+        "name": "proba_Portugal",
+        "type": "double"
+      },
+      {
+        "name": "proba_Belgium",
+        "type": "double"
+      },
+      {
+        "name": "proba_Austria",
+        "type": "double"
+      },
+      {
+        "name": "proba_Spain",
+        "type": "double"
+      },
+      {
+        "name": "proba_Japan",
+        "type": "double"
+      },
+      {
+        "name": "proba_Nigeria",
+        "type": "double"
+      },
+      {
+        "name": "proba_USA",
+        "type": "double"
+      },
+      {
+        "name": "proba_Denmark",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "string"
+      },
+      {
+        "name": "prediction_correct",
+        "type": "boolean"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
