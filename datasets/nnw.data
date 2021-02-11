@@ -2,18 +2,15 @@
   "data": [
     [
       "B",
-      null,
       "234",
       "sdfs"
     ],
     [
       "A",
-      null,
       "23",
       "SD2"
     ],
     [
-      null,
       null,
       null,
       null
@@ -22,10 +19,9 @@
   "schema": {
     "columns": [
       {"name":"new_column","type":"string"},
-      {"name":"new_column_3","type":"string"},
       {"name":"new_column_2","type":"string"},
       {"name":"new_column_1","type":"string"}
     ],
-    "userModified": false
+    "userModified": true
   }
 }
