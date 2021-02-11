@@ -23,7 +23,7 @@
     }
   },
   "formatParams": {
-    "style": "excel",
+    "style": "unix",
     "charset": "utf-8",
     "separator": "\t",
     "quoteChar": "\"",
@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613057053190
+    "lastModifiedOn": 1613058389245
   },
   "creationTag": {
     "versionNumber": 0,
