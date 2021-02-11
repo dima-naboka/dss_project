@@ -26,8 +26,27 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "TextSimplifierProcessor",
+      "params": {
+        "inCol": "col_2",
+        "sortAlphabetically": false,
+        "normalize": true,
+        "language": "english",
+        "clearStopWords": false,
+        "stem": false
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +54,21 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "col_10": 100,
+    "col_11": 100,
+    "col_6": 100,
+    "col_5": 183,
+    "col_4": 106,
+    "col_3": 100,
+    "col_2": 300,
+    "col_1": 100,
+    "col_0": 100,
+    "col_9": 100,
+    "col_8": 100,
+    "col_12": 113,
+    "col_7": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
