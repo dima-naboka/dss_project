@@ -1,6 +1,11 @@
 {
   "data": [
     [
+      "B",
+      "234",
+      "sdfs"
+    ],
+    [
       "A",
       "23",
       "SD2"
@@ -12,6 +17,6 @@
       {"name":"new_column_2","type":"string"},
       {"name":"new_column_1","type":"string"}
     ],
-    "userModified": false
+    "userModified": true
   }
 }
