@@ -26,7 +26,7 @@
         },
         "partitionSelectionMethod": "SELECTED",
         "selectedPartitions": [
-          "B"
+          "A"
         ],
         "latestPartitionsN": 1,
         "ordering": {
@@ -40,7 +40,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 7
+      "_refreshTrigger": 8
     },
     "vizSampling": {
       "autoRefreshSample": false,
