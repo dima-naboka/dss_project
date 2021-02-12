@@ -22,23 +22,6 @@
             "insightType": "metrics",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 3,
-              "left": 0,
-              "width": 10,
-              "height": 2
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {},
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "ORruFu3",
-            "insightType": "eda",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -51,11 +34,11 @@
   "name": "NEW_PRJ\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 20,
+    "versionNumber": 21,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613122046811
+    "lastModifiedOn": 1613122050041
   },
   "creationTag": {
     "versionNumber": 0,
