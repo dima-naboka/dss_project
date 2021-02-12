@@ -9,22 +9,17 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 6,
-              "height": 3
+              "width": 8,
+              "height": 4
             },
-            "clickAction": "OPEN_INSIGHT",
+            "clickAction": "DO_NOTHING",
             "tileParams": {
-              "showName": true,
-              "showDescription": true,
-              "showCustomFields": true,
-              "showStorageType": false,
-              "showMeaning": false,
-              "showProgressBar": false
+              "displayMode": "summary"
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "656WGN6",
-            "insightType": "dataset_table",
+            "insightId": "C9gAlIs",
+            "insightType": "saved-model_report",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
@@ -39,11 +34,11 @@
   "name": "NEW_PRJ\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613118540878
+    "lastModifiedOn": 1613118567783
   },
   "creationTag": {
     "versionNumber": 0,
