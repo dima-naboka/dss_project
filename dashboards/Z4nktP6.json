@@ -10,7 +10,7 @@
               "top": 0,
               "left": 8,
               "width": 2,
-              "height": 2
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -50,10 +50,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 3,
+              "left": 0,
               "width": 10,
-              "height": 5
+              "height": 2
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {},
@@ -75,11 +75,11 @@
   "name": "NEW_PRJ\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613121781381
+    "lastModifiedOn": 1613121790177
   },
   "creationTag": {
     "versionNumber": 0,
