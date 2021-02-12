@@ -37,6 +37,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "zaSvag3h",
+          "objectType": "SAVED_MODEL"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -229,11 +238,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613118400037
+    "lastModifiedOn": 1613118563094
   },
   "creationTag": {
     "versionNumber": 0,
