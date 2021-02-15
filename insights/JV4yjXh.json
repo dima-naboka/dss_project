@@ -1,0 +1,133 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "univariate_header",
+      "showHistogram": true,
+      "showQuantile": false,
+      "showFrequencyTable": true,
+      "showSummary": true,
+      "showBoxPlot": false,
+      "xColumns": [
+        {
+          "name": "new_column_2",
+          "type": "CATEGORICAL"
+        }
+      ],
+      "cards": [
+        {
+          "type": "column_card",
+          "column": {
+            "name": "new_column_2",
+            "type": "CATEGORICAL"
+          },
+          "cards": [
+            {
+              "type": "categorical_histogram",
+              "maxValues": 10,
+              "groupOthers": false,
+              "column": {
+                "name": "new_column_2",
+                "type": "CATEGORICAL"
+              },
+              "id": "d3VdxDq"
+            },
+            {
+              "type": "univariate_summary",
+              "confidenceLevel": 0.95,
+              "showConfidenceInterval": false,
+              "compute": {
+                "totalCount": true,
+                "mean": true,
+                "sum": false,
+                "median": true,
+                "std": true,
+                "variance": false,
+                "skewness": false,
+                "kurtosis": false,
+                "sem": false,
+                "completeCount": true,
+                "nbEmpty": true,
+                "zeroCount": false,
+                "zeroRatio": false,
+                "nonZeroRatio": false,
+                "iqr": false,
+                "distinctCount": true,
+                "nbNonEmpty": false,
+                "min": true,
+                "max": true,
+                "range": false,
+                "mode": true
+              },
+              "column": {
+                "name": "new_column_2",
+                "type": "CATEGORICAL"
+              },
+              "id": "tHMbmcr"
+            },
+            {
+              "type": "univariate_frequency_table",
+              "maxValues": 10,
+              "column": {
+                "name": "new_column_2",
+                "type": "CATEGORICAL"
+              },
+              "id": "Ia7tUbX"
+            }
+          ],
+          "id": "opzThnE"
+        }
+      ],
+      "id": "1mkpLEt"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "PART_copy",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Univariate analysis on 1 variable ",
+  "dashboardCreationId": "Z4nktP6",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1613374340761
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1613374340761
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
