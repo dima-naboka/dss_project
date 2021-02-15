@@ -8,9 +8,9 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 8,
+              "left": 5,
               "width": 2,
-              "height": 3
+              "height": 4
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -26,10 +26,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
-              "width": 10,
-              "height": 5
+              "top": 0,
+              "left": 0,
+              "width": 5,
+              "height": 4
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {},
@@ -51,11 +51,11 @@
   "name": "NEW_PRJ\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 24,
+    "versionNumber": 25,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613373502870
+    "lastModifiedOn": 1613373527386
   },
   "creationTag": {
     "versionNumber": 0,
