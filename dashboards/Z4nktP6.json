@@ -8,25 +8,6 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 5,
-              "width": 2,
-              "height": 4
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "displayMode": "LAST_VALUE"
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "VtTtF4k",
-            "insightType": "metrics",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
               "left": 0,
               "width": 5,
               "height": 4
@@ -51,11 +32,11 @@
   "name": "NEW_PRJ\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 26,
+    "versionNumber": 27,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613373600060
+    "lastModifiedOn": 1613373602473
   },
   "creationTag": {
     "versionNumber": 0,
