@@ -1,3 +1,22 @@
 {
-  "data": []
+  "data": [
+    [
+      null,
+      "8050",
+      "9.0.0"
+    ],
+    [
+      null,
+      null,
+      null
+    ]
+  ],
+  "schema": {
+    "columns": [
+      {"name":"product_commitId","type":"string"},
+      {"name":"conf_version","type":"string"},
+      {"name":"product_version","type":"string"}
+    ],
+    "userModified": false
+  }
 }

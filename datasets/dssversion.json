@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614169906297
+    "lastModifiedOn": 1614169973937
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,20 @@
     "importProjectKey": "NEW_PRJ"
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "product_commitId",
+        "type": "string"
+      },
+      {
+        "name": "conf_version",
+        "type": "string"
+      },
+      {
+        "name": "product_version",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
