@@ -8,7 +8,7 @@
       "variable3": "val1",
       "variable1": "label"
     },
-    "keepInstance": false
+    "keepInstance": true
   },
   "customMeta": {
     "kv": {}
@@ -38,11 +38,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614170184003
+    "lastModifiedOn": 1614170681192
   },
   "creationTag": {
     "versionNumber": 0,
