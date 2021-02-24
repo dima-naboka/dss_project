@@ -3,8 +3,10 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "variables": {},
-    "keepInstance": false
+    "variables": {
+      "variable2": 0
+    },
+    "keepInstance": true
   },
   "customMeta": {
     "kv": {}
@@ -34,11 +36,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614169807450
+    "lastModifiedOn": 1614169819021
   },
   "creationTag": {
     "versionNumber": 0,
