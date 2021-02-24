@@ -6,7 +6,7 @@
     "variables": {
       "variable2": 0
     },
-    "keepInstance": false
+    "keepInstance": true
   },
   "customMeta": {
     "kv": {}
@@ -36,11 +36,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614178679803
+    "lastModifiedOn": 1614180103909
   },
   "creationTag": {
     "versionNumber": 0,
