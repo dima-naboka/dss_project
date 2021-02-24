@@ -81,7 +81,12 @@
       {
         "type": "DATASET",
         "localName": "dssversion",
-        "rules": []
+        "rules": [
+          {
+            "targetProject": "RUN_compute_out_aar_aKhE2zDT",
+            "appearOnFlow": true
+          }
+        ]
       }
     ]
   },
@@ -271,11 +276,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614179784141
+    "lastModifiedOn": 1614180028420
   },
   "creationTag": {
     "versionNumber": 0,
