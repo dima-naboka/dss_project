@@ -3,7 +3,9 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "variables": {},
+    "variables": {
+      "variable2": 0
+    },
     "keepInstance": false
   },
   "customMeta": {
@@ -34,11 +36,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614178671971
+    "lastModifiedOn": 1614178679803
   },
   "creationTag": {
     "versionNumber": 0,
