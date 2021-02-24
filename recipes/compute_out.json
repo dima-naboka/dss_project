@@ -4,7 +4,9 @@
   "optionalDependencies": false,
   "params": {
     "variables": {
-      "variable2": 0
+      "variable2": 0,
+      "variable3": "val1",
+      "variable1": "label"
     },
     "keepInstance": false
   },
@@ -36,11 +38,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614170070578
+    "lastModifiedOn": 1614170184003
   },
   "creationTag": {
     "versionNumber": 0,
