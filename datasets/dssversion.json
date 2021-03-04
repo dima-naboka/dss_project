@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614169973937
+    "lastModifiedOn": 1614865318604
   },
   "creationTag": {
     "versionNumber": 0,
@@ -95,6 +95,55 @@
           "level": 0
         },
         "configuration": {}
+      },
+      {
+        "type": "col_stats",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Columns statistics",
+          "level": 2
+        },
+        "configuration": {
+          "aggregates": []
+        }
+      },
+      {
+        "type": "adv_col_stats",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Most frequent values",
+          "level": 3
+        },
+        "configuration": {
+          "aggregates": [],
+          "numberTopValues": 10
+        }
+      },
+      {
+        "type": "percentile_stats",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Columns percentiles",
+          "level": 4
+        },
+        "configuration": {
+          "aggregates": []
+        }
+      },
+      {
+        "type": "verify_col",
+        "enabled": false,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Data validity",
+          "level": 4
+        },
+        "configuration": {
+          "aggregates": []
+        }
       }
     ],
     "engineConfig": {
@@ -138,6 +187,7 @@
       "python": {}
     },
     "displayedState": {
+      "partition": "NP",
       "columns": [],
       "metrics": [
         "basic:COUNT_COLUMNS",
@@ -147,8 +197,21 @@
   },
   "metricsChecks": {
     "runOnBuild": false,
-    "checks": [],
+    "checks": [
+      {
+        "metricId": "records:COUNT_RECORDS",
+        "values": [
+          "2"
+        ],
+        "type": "valueSet",
+        "meta": {
+          "name": "Value in set"
+        },
+        "computeOnBuildMode": "PARTITION"
+      }
+    ],
     "displayedState": {
+      "partition": "NP",
       "checks": []
     }
   },
