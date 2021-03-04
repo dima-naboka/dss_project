@@ -4,11 +4,6 @@
       null,
       "8050",
       "9.0.0"
-    ],
-    [
-      null,
-      null,
-      null
     ]
   ],
   "schema": {
@@ -17,6 +12,6 @@
       {"name":"conf_version","type":"string"},
       {"name":"product_version","type":"string"}
     ],
-    "userModified": false
+    "userModified": true
   }
 }
