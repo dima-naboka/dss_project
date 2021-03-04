@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614865318604
+    "lastModifiedOn": 1614865341624
   },
   "creationTag": {
     "versionNumber": 0,
@@ -205,7 +205,8 @@
         ],
         "type": "valueSet",
         "meta": {
-          "name": "Value in set"
+          "name": "Value in set",
+          "label": "check_record_count"
         },
         "computeOnBuildMode": "PARTITION"
       }
