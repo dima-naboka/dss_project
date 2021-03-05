@@ -1,3 +1,27 @@
 {
-  "data": []
+  "data": [
+    [
+      "1",
+      "1.2"
+    ],
+    [
+      "2",
+      "0.96"
+    ],
+    [
+      "3",
+      "0.3"
+    ],
+    [
+      null,
+      null
+    ]
+  ],
+  "schema": {
+    "columns": [
+      {"name":"id","type":"string"},
+      {"name":"value","type":"float"}
+    ],
+    "userModified": false
+  }
 }

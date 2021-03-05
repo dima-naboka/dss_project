@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1614940947293
+    "lastModifiedOn": 1614941001187
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,16 @@
     "importProjectKey": "NEW_PRJ"
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "value",
+        "type": "float"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
