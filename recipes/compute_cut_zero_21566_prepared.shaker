@@ -34,7 +34,7 @@
     {
       "preview": false,
       "metaType": "PROCESSOR",
-      "disabled": true,
+      "disabled": false,
       "type": "FindReplace",
       "params": {
         "output": "value_upd",
