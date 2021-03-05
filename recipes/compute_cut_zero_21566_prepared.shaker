@@ -40,7 +40,7 @@
         "output": "value_upd",
         "mapping": [
           {
-            "from": "^0.(\\d+(!?$))",
+            "from": "^0\\.(\\d+(!?$))",
             "to": ".$1"
           }
         ],
@@ -55,7 +55,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FindReplace",
@@ -63,7 +63,11 @@
         "output": "",
         "mapping": [
           {
-            "from": ".0",
+            "from": "^0\\.",
+            "to": "0"
+          },
+          {
+            "from": "^\\.(0+)$",
             "to": "0"
           }
         ],
@@ -73,7 +77,7 @@
         ],
         "appliesTo": "SINGLE_COLUMN",
         "stopAfterFirstMatch": false,
-        "matching": "SUBSTRING"
+        "matching": "PATTERN"
       },
       "alwaysShowComment": false
     }
