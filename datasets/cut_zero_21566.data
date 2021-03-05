@@ -13,8 +13,8 @@
       "0.3"
     ],
     [
-      null,
-      null
+      "4",
+      "0.0"
     ]
   ],
   "schema": {
@@ -22,6 +22,6 @@
       {"name":"id","type":"string"},
       {"name":"value","type":"float"}
     ],
-    "userModified": false
+    "userModified": true
   }
 }
