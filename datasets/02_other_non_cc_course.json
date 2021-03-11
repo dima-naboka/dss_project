@@ -24,11 +24,12 @@
   },
   "formatParams": {
     "config": {
-      "encoding": "gb18030",
+      "encoding": "utf_8",
       "sas_format": "sas7bdat",
-      "chunksize": 1000
+      "chunksize": 1000,
+      "dump_to_file": true
     },
-    "compress": ""
+    "compress": "gz"
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -36,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1615458209031
+    "lastModifiedOn": 1615458448363
   },
   "creationTag": {
     "versionNumber": 0,
