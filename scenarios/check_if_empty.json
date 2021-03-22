@@ -5,11 +5,11 @@
   "name": "check_if_empty",
   "active": false,
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616417176956
+    "lastModifiedOn": 1616417281927
   },
   "checklists": {
     "checklists": []
@@ -72,18 +72,18 @@
             }
           ],
           "warningsAsErrors": false,
-          "proceedOnFailure": true
+          "proceedOnFailure": false
         }
       },
       {
         "id": "kill_scenario_null.check_if_empty",
         "type": "kill_scenario",
         "name": "Step #5",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionType": "RUN_CONDITIONALLY",
         "runConditionStatuses": [
           "WARNING"
         ],
-        "runConditionExpression": "",
+        "runConditionExpression": "WARNING",
         "resetScenarioStatus": false,
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
