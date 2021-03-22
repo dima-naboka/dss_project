@@ -5,11 +5,11 @@
   "name": "check_if_empty",
   "active": false,
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616417365946
+    "lastModifiedOn": 1616417414676
   },
   "checklists": {
     "checklists": []
@@ -72,7 +72,7 @@
             }
           ],
           "warningsAsErrors": true,
-          "proceedOnFailure": true
+          "proceedOnFailure": false
         }
       },
       {
@@ -96,32 +96,6 @@
         "id": "build_0_true_d_empty_table_1",
         "type": "build_flowitem",
         "name": "Step #3",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
-        "runConditionStatuses": [
-          "SUCCESS",
-          "WARNING"
-        ],
-        "runConditionExpression": "",
-        "resetScenarioStatus": false,
-        "delayBetweenRetries": 10,
-        "maxRetriesOnFail": 0,
-        "params": {
-          "builds": [
-            {
-              "type": "DATASET",
-              "itemId": "empty_table",
-              "partitionsSpec": ""
-            }
-          ],
-          "jobType": "RECURSIVE_BUILD",
-          "refreshHiveMetastore": true,
-          "proceedOnFailure": false
-        }
-      },
-      {
-        "id": "build_0_true_d_empty_table_2",
-        "type": "build_flowitem",
-        "name": "Step #4",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
