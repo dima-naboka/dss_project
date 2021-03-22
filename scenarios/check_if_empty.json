@@ -5,11 +5,11 @@
   "name": "check_if_empty",
   "active": false,
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616417514893
+    "lastModifiedOn": 1616417549493
   },
   "checklists": {
     "checklists": []
@@ -72,7 +72,7 @@
             }
           ],
           "warningsAsErrors": false,
-          "proceedOnFailure": true
+          "proceedOnFailure": false
         }
       },
       {
