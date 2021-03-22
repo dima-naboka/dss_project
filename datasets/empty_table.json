@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616416919371
+    "lastModifiedOn": 1616416991983
   },
   "creationTag": {
     "versionNumber": 0,
@@ -188,11 +188,11 @@
         "metricId": "records:COUNT_RECORDS",
         "minimum": 1.0,
         "maximum": 0.0,
-        "softMinimum": 0.0,
+        "softMinimum": 1.0,
         "softMaximum": 0.0,
-        "minimumEnabled": true,
+        "minimumEnabled": false,
         "maximumEnabled": false,
-        "softMinimumEnabled": false,
+        "softMinimumEnabled": true,
         "softMaximumEnabled": false,
         "type": "numericRange",
         "meta": {
