@@ -1,7 +1,20 @@
 {
   "name": "check_if_empty",
   "color": "#8C2DA7",
-  "items": [],
+  "items": [
+    {
+      "objectId": "editable",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_empty_table",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "empty_table",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
