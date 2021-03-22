@@ -13,6 +13,14 @@
     {
       "objectId": "empty_table",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "empty_table_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_empty_table_prepared",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
