@@ -5,11 +5,11 @@
   "name": "check_if_empty",
   "active": false,
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616418070791
+    "lastModifiedOn": 1616418348024
   },
   "checklists": {
     "checklists": []
@@ -41,7 +41,7 @@
           "builds": [
             {
               "type": "DATASET",
-              "itemId": "empty_table",
+              "itemId": "empty_table_prepared",
               "partitionsSpec": ""
             }
           ],
@@ -67,7 +67,7 @@
           "checks": [
             {
               "type": "DATASET",
-              "itemId": "empty_table",
+              "itemId": "empty_table_prepared",
               "partitionsSpec": ""
             }
           ],
