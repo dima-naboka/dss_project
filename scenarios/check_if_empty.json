@@ -1,0 +1,30 @@
+{
+  "projectKey": "NEW_PRJ",
+  "id": "check_if_empty",
+  "type": "step_based",
+  "name": "check_if_empty",
+  "active": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1616416875410
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "steps": []
+  },
+  "automationLocal": false,
+  "customFields": {}
+}
