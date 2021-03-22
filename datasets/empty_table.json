@@ -27,11 +27,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616417640195
+    "lastModifiedOn": 1616418228690
   },
   "creationTag": {
     "versionNumber": 0,
@@ -56,7 +56,13 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "id",
+        "type": "bigint",
+        "originalType": "int8"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
@@ -186,10 +192,10 @@
     "checks": [
       {
         "metricId": "records:COUNT_RECORDS",
-        "minimum": 1.0,
-        "maximum": 0.0,
-        "softMinimum": 1.0,
-        "softMaximum": 0.0,
+        "minimum": 1,
+        "maximum": 0,
+        "softMinimum": 1,
+        "softMaximum": 0,
         "minimumEnabled": true,
         "maximumEnabled": false,
         "softMinimumEnabled": false,
