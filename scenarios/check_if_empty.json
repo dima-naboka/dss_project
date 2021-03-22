@@ -5,11 +5,11 @@
   "name": "check_if_empty",
   "active": false,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616417036968
+    "lastModifiedOn": 1616417089604
   },
   "checklists": {
     "checklists": []
@@ -71,7 +71,25 @@
               "partitionsSpec": ""
             }
           ],
-          "warningsAsErrors": false,
+          "warningsAsErrors": true,
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "kill_scenario_null.check_if_empty",
+        "type": "kill_scenario",
+        "name": "Step #5",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "scenarioId": "check_if_empty",
           "proceedOnFailure": false
         }
       },
