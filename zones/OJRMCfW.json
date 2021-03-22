@@ -3,10 +3,6 @@
   "color": "#8C2DA7",
   "items": [
     {
-      "objectId": "compute_empty_table",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "empty_table",
       "objectType": "DATASET"
     },
