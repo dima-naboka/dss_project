@@ -44,6 +44,28 @@
         },
         "sql": "SELECT * FROM \"test_table\"",
         "expandedSql": "SELECT * FROM \"test_table\""
+      },
+      {
+        "mode": "SQL",
+        "id": "P4cgi8kU6vzT",
+        "runOn": 1616671418833,
+        "runIn": 68,
+        "runBy": "admin",
+        "connection": "dku_macos",
+        "state": "RUNNING",
+        "futureId": "zvFjaCUh",
+        "hash": "7a2cc888229f1cb0921c3cd81caa065e",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT count(id) FROM \"test_table\"",
+        "expandedSql": "SELECT count(id) FROM \"test_table\""
       }
     ]
   }
