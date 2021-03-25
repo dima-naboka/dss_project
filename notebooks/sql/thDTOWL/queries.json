@@ -71,10 +71,10 @@
         "mode": "SQL",
         "id": "uIEYs93KpPG7",
         "runOn": 1616671482650,
-        "runIn": 48,
+        "runIn": 39,
         "runBy": "admin",
         "connection": "dku_macos",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "6EBzYwx6",
         "hash": "a0884b4a494ca33c698bd84376953112",
         "querySettings": {
