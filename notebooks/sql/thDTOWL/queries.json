@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "pwky65cdxdi": [
+      {
+        "mode": "SQL",
+        "id": "2CZFGX7CQ3k0",
+        "runOn": 1616671396475,
+        "runIn": -1,
+        "runBy": "admin",
+        "connection": "dku_macos",
+        "state": "RUNNING",
+        "futureId": "tYZDmnc7",
+        "hash": "41bf2d23184a5a7dce2636876982d6bb",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT * FROM \"empty_table\"",
+        "expandedSql": "SELECT * FROM \"empty_table\""
+      }
+    ]
+  }
+}
