@@ -1,14 +1,28 @@
 {
   "connection": "dku_macos",
   "name": "admin\u0027s notebook on dku_macos",
-  "cells": [],
+  "cells": [
+    {
+      "id": "pwky65cdxdi",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616671379698
+    "lastModifiedOn": 1616671382993
   },
   "creationTag": {
     "versionNumber": 0,
