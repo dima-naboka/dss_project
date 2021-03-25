@@ -27,10 +27,10 @@
         "mode": "SQL",
         "id": "gvSdymWOFb0d",
         "runOn": 1616671405945,
-        "runIn": 70,
+        "runIn": 68,
         "runBy": "admin",
         "connection": "dku_macos",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "FArTruRi",
         "hash": "1c95fb73be1d05541df31e6721c01220",
         "querySettings": {
