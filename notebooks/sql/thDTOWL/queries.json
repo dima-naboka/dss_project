@@ -22,6 +22,28 @@
         },
         "sql": "SELECT * FROM \"empty_table\"",
         "expandedSql": "SELECT * FROM \"empty_table\""
+      },
+      {
+        "mode": "SQL",
+        "id": "gvSdymWOFb0d",
+        "runOn": 1616671405945,
+        "runIn": 70,
+        "runBy": "admin",
+        "connection": "dku_macos",
+        "state": "RUNNING",
+        "futureId": "FArTruRi",
+        "hash": "1c95fb73be1d05541df31e6721c01220",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT * FROM \"test_table\"",
+        "expandedSql": "SELECT * FROM \"test_table\""
       }
     ]
   }
