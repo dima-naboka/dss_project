@@ -5,11 +5,11 @@
   "name": "run_check",
   "active": false,
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1616671303510
+    "lastModifiedOn": 1616671510964
   },
   "checklists": {
     "checklists": []
@@ -70,6 +70,26 @@
             }
           ],
           "warningsAsErrors": false,
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "sql_dku_macos_HRiVbCE8OnCeDMwOqndk7Q",
+        "type": "exec_sql",
+        "name": "Step #4",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "connection": "dku_macos",
+          "sql": "SELECT count(id) FROM \"dku\".\"NEW_PRJ_test_table_prepared\"",
+          "extraConf": [],
           "proceedOnFailure": false
         }
       },
