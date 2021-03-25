@@ -1,0 +1,25 @@
+{
+  "connection": "dku_macos",
+  "name": "admin\u0027s notebook on dku_macos",
+  "cells": [],
+  "automationLocal": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1616671379698
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1616671379698
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
