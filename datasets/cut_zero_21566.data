@@ -3,54 +3,58 @@
     [
       "1",
       "1.2",
-      "a"
+      "a",
+      "01/30/2018 2:25 PM"
     ],
     [
       "2",
       "0.96",
-      "b"
+      "b",
+      null
     ],
     [
       "3",
       "0.3",
-      "a"
+      "a",
+      null
     ],
     [
       "4",
       "0.0",
-      "B"
+      "B",
+      null
     ],
     [
       "5",
       "0.00",
-      "B"
+      "B",
+      null
     ],
     [
       "6",
       "0.456",
-      "A"
+      "A",
+      null
     ],
     [
       "7",
       "0.",
+      null,
       null
     ],
     [
       "8",
       "0.01",
+      null,
       null
-    ],
-    [
-      null,
-      null,
-      "01/30/2018 2:25 PM"
     ]
   ],
   "schema": {
     "columns": [
       {"name":"id","type":"string"},
       {"name":"value","type":"float"},
-      {"name":"key","type":"string"}
+      {"name":"key","type":"string"},
+      {"name":"new_column","type":"string"}
     ],
     "userModified": true
   }
