@@ -109,6 +109,10 @@
           {
             "targetProject": "RUN_compute_out_aar_z3VfoFDP",
             "appearOnFlow": true
+          },
+          {
+            "targetProject": "RUN_compute_out_aar_5rj0gnjH",
+            "appearOnFlow": true
           }
         ]
       }
@@ -300,11 +304,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617114440712
+    "lastModifiedOn": 1617114831440
   },
   "creationTag": {
     "versionNumber": 0,
