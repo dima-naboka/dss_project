@@ -59,9 +59,13 @@
           "ref": "PART",
           "deps": [
             {
+              "out": "PART_NP",
               "idim": "new_column",
-              "func": "all_available",
+              "func": "values",
               "params": {},
+              "values": [
+                "A"
+              ],
               "expandVariables": false
             }
           ]
@@ -80,11 +84,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617873010344
+    "lastModifiedOn": 1617873047902
   },
   "creationTag": {
     "versionNumber": 0,
