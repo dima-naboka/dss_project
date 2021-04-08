@@ -24,9 +24,9 @@
           "distinct": false,
           "enabled": false
         },
-        "partitionSelectionMethod": "ALL",
+        "partitionSelectionMethod": "SELECTED",
         "selectedPartitions": [
-          "A"
+          "B"
         ],
         "latestPartitionsN": 1,
         "ordering": {
@@ -40,7 +40,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 14
+      "_refreshTrigger": 15
     },
     "vizSampling": {
       "autoRefreshSample": false,
