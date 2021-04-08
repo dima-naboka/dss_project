@@ -61,11 +61,8 @@
             {
               "out": "PART_NP",
               "idim": "new_column",
-              "func": "values",
+              "func": "all_available",
               "params": {},
-              "values": [
-                "B"
-              ],
               "expandVariables": false
             }
           ]
@@ -84,11 +81,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1617873208232
+    "lastModifiedOn": 1617873801479
   },
   "creationTag": {
     "versionNumber": 0,
