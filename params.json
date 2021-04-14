@@ -137,7 +137,7 @@
       }
     }
   },
-  "name": "NEW_PRJ (master)",
+  "name": "NEW_PRJ (master) (master_new)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -193,11 +193,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618411308924
+    "lastModifiedOn": 1618411311478
   },
   "creationTag": {
     "versionNumber": 0,
@@ -206,7 +206,7 @@
     },
     "lastModifiedOn": 1607331812874
   },
-  "shortDesc": "The project *NEW_PRJ* was created by Administrator on Dec 07th 2020\nThe project *NEW_PRJ_MASTER* was copied from *NEW_PRJ* on *test* branch by Administrator on Feb 01st 2021",
+  "shortDesc": "The project *NEW_PRJ* was created by Administrator on Dec 07th 2020\nThe project *NEW_PRJ_MASTER* was copied from *NEW_PRJ* on *test* branch by Administrator on Feb 01st 2021\nThe project *NEW_PRJ_MASTER_MASTER_NEW* was copied from *NEW_PRJ_MASTER* by Administrator on Apr 14th 2021",
   "tags": [
     "duplicated"
   ],
